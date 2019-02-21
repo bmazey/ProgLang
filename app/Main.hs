@@ -29,8 +29,8 @@ listUnion x y = nub (x ++ y)
 place :: Int -> [Int] -> [Int]
 place x [] = [x]
 place x (y:ys) = if x < y
-                  then x:y:ys
-                  else y : place x ys
+                   then x:y:ys
+                 else y : place x ys
 
 insertionSort :: [Int] -> [Int]
 insertionSort [x] = [x]
