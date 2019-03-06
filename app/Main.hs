@@ -2,6 +2,7 @@ module Main where
 
 import Lib
 import Data.List
+import Assignment3
 
 main :: IO ()
 
@@ -16,6 +17,9 @@ main = do
     print $ minMax [11, 12, 13, 14]
     print $ permute ['a', 'b', 'c']
     print $ permute [1, 2, 3]
+
+    -- this is the assignment 3 test I/O
+    print $ findMax [2, -4, 8, 13.5]
 
 
 -- returns the reverse of a simple list
