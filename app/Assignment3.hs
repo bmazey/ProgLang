@@ -13,6 +13,7 @@ findMax (x:x':xs) = findMax ((if x > x' then x else x'):xs)
 isEmptyIntersection :: Eq a => [a] -> [a] -> Bool
 isEmptyIntersection [] _ = True
 isEmptyIntersection _ [] = True
+-- does it call the function on the empty list?
 imEmptyIntersection (x:xs) y
   | x `elem` y = False
   | otherwise = isEmptyIntersection xs y
