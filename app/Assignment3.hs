@@ -9,12 +9,11 @@ findMax [x] = x
 findMax (x:x':xs) = findMax ((if x > x' then x else x'):xs)
 
 
--- why doesn't this work?
+-- check to see if two lists have no common elements
 isEmptyIntersection :: Eq a => [a] -> [a] -> Bool
 isEmptyIntersection [] _ = True
 isEmptyIntersection _ [] = True
--- does it call the function on the empty list?
-imEmptyIntersection (x:xs) y
+isEmptyIntersection (x:xs) y
   | x `elem` y = False
   | otherwise = isEmptyIntersection xs y
 

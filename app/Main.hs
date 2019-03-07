@@ -21,7 +21,7 @@ main = do
     -- this is the assignment 3 test I/O
     print $ findMax [2, -4, 8, 13.5]
     print $ getFinalElement [16, 17, 18 , 19]
-    -- print $ isEmptyIntersection [1, 2, 3] [4, 5, 6]
+    print $ isEmptyIntersection [1, 2, 3] [4, 3, 6]
 
 
 -- returns the reverse of a simple list
