@@ -11,12 +11,12 @@ main :: IO ()
 -}
 
 main = do
-    print $ simpleReverse [1, 2, 3, 4]
-    print $ listUnion [1, 2, 3] [2, 3, 4]
-    print $ insertionSort [4, 5, 1, 0, 8, 7, 3]
-    print $ minMax [11, 12, 13, 14]
-    print $ permute ['a', 'b', 'c']
-    print $ permute [1, 2, 3]
+    -- print $ simpleReverse [1, 2, 3, 4]
+    -- print $ listUnion [1, 2, 3] [2, 3, 4]
+    -- print $ insertionSort [4, 5, 1, 0, 8, 7, 3]
+    -- print $ minMax [11, 12, 13, 14]
+    -- print $ permute ['a', 'b', 'c']
+    -- print $ permute [1, 2, 3]
 
     -- this is the assignment 3 test I/O
     print $ findMax [2, -4, 8, 13.5]
